@@ -1,6 +1,12 @@
+class node:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+
 class Solution:
     def mergeTwoLists(self, list1, list2):
-        a = Node()
+        a = node(0)
         new= a
 
         while list1 and list2:
