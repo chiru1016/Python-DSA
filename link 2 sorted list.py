@@ -1,6 +1,6 @@
 class Solution:
     def mergeTwoLists(self, list1, list2):
-        a = ListNode()
+        a = Node()
         new= a
 
         while list1 and list2:
